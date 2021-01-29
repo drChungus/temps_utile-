@@ -36,8 +36,8 @@ public:
   static const int32_t kAccelerationMax = 16 << 8;
 
   // For debouncing of pins, use 0x0f (b00001111) and 0x0c (b00001100) etc.
-  static const uint8_t kPinMask = 0x03;
-  static const uint8_t kPinEdge = 0x02;
+  static const uint8_t kPinMask = 0x0f;
+  static const uint8_t kPinEdge = 0x0c;
 
   Encoder() { }
   ~Encoder() { }
